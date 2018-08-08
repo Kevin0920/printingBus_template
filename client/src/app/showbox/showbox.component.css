@@ -1,0 +1,159 @@
+/*  displayInfo */
+
+.displayInfo {
+    padding: 54px 0 100px;
+}
+
+.displayInfo carousel img {
+    width: 100%;
+    height: 500px;
+    max-height: 500px;
+    background-size: cover;
+    padding: 5px;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    object-position: center;
+}
+
+.displayInfo .item {
+    width: 100%;
+    height: 100%;
+}
+
+.displayInfo .row .col-md-6 {
+    margin-bottom: 30px;
+}
+
+.displayInfo .owner {
+    text-align: center;
+}
+
+.displayInfo .owner img {
+    border-radius: 30px;
+}
+
+/* Info Container */
+
+.info {
+    padding: 70px 20px 30px;
+    overflow: hidden;
+}
+
+.list-group list-group-flush {
+    z-index: -1;
+}
+
+/* Boxes Style  */
+
+.boxes {
+    background-color: #3A9CED;
+    color: #fff;
+}
+
+.boxes .col {
+    text-align: center;
+    padding: 1.5rem 2rem;
+}
+
+/* End */
+
+/* Social Section */
+
+section.contact {
+    text-align: center;
+    padding: 50px 0;
+}
+
+section.contact h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+section.contact h2 i {
+    color: #dd4b39;
+}
+
+section.contact ul.list-social {
+    margin-bottom: 0;
+}
+
+section.contact ul.list-social li a {
+    font-size: 30px;
+    line-height: 65px;
+    display: block;
+    width: 65px;
+    height: 65px;
+    color: white;
+    border-radius: 100%;
+    border: 1px #fff solid;
+}
+
+section.contact ul.list-social li.social-twitter a {
+    background-color: #1da1f2;
+}
+
+section.contact ul.list-social li.social-twitter a:hover {
+    background-color: #0d95e8;
+}
+
+section.contact ul.list-social li.social-facebook a {
+    background-color: #3b5998;
+}
+
+section.contact ul.list-social li.social-facebook a:hover {
+    background-color: #344e86;
+}
+
+section.contact ul.list-social li.social-print a {
+    background-color: #d73925;
+}
+
+section.contact ul.list-social li.social-print a:hover {
+    background-color: #d73925;
+}
+
+.bg-primary {
+    background: #3A9CED;
+    background: -webkit-linear-gradient(#3A9CED, #3A9CED);
+    background: linear-gradient(#3A9CED, #3A9CED);
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+
+@media only screen and (max-width: 959px) {
+    .displayInfo carousel img {
+        height: 400px;
+    }
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .displayInfo carousel img {
+        height: 400px;
+    }
+}
+
+/* All Mobile Sizes (devices and browser) */
+
+@media only screen and (max-width: 767px) {
+    .displayInfo carousel img {
+        height: 300px;
+    }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .displayInfo carousel img {
+        height: 300px;
+    }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+
+@media only screen and (max-width: 479px) {
+    .displayInfo carousel img {
+        height: 300px;
+    }
+}

@@ -1,0 +1,156 @@
+<!-- Top Container  -->
+<section class="v-header">
+  <div class="overlay">
+    <div class="video-chrome-fix" [innerHTML]="videoTag"></div>
+    <div class="backcover"></div>
+    <div class="text-block animated zoomInDown delay-3s">
+      <div class="row">
+        <div class="col-lg-6 col-xs-6">
+          <img src="assets/images/welcome.jpg" alt="welcome-image">
+        </div>
+        <div class="col-lg-6 col-xs-6">
+          <h4>What a beautiful sunrise</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos excepturi in ea quo assumenda. Est, minus explicabo!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End  -->
+
+<!-- Basic Info -->
+
+<section class="displayInfo">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <carousel *ngIf='homeImageList'>
+          <slide *ngFor="let item of homeImageList">
+            <img class="img-main-carousel" [src]="item.image" alt="first slide" style="display: block; width: 100%;">
+            <div class="carousel-caption">
+              <h3>{{ item.name }}
+              </h3>
+              <p>
+                {{ item.description }}
+              </p>
+              <a class='btn btn-primary' [routerLink]="['/templates']">View</a>
+            </div>
+          </slide>
+        </carousel>
+      </div>
+      <div class="col-md-4">
+        <div class="owner">
+          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image"
+            width="140" height="140">
+          <h3>David Tse</h3>
+          <h3>Manager</h3>
+          <p>Our goal is to provide you with the Best Service, Best Price, Best Quality. Call or Email us. --
+            <strong>David</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Box Section -->
+<div class="boxes">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <i class="fas fa-truck fa-4x"></i>
+        <h3>Free Shipping</h3>
+        <p>UPS Shipping Products</p>
+      </div>
+      <div class="col">
+        <i class="fas fa-globe fa-4x"></i>
+        <h3>Marketing</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="col">
+        <i class="fas fa-cog fa-4x"></i>
+        <h3>Development</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Info Section -->
+<section class="info">
+  <!-- Portfolio Item Row -->
+  <div class="row">
+    <div class="col-md-6">
+      <img src="../assets/images/iphone.jpg" style="display: block; width: 100%; transform: scaleY(1.5);">
+    </div>
+    <div class="col-md-6">
+      <h3 class="my-3">Project Description</h3>
+      <p>
+        <i class="fas fa-quote-left fa-pull-left"></i>
+        No job too large or too small. We custom to your personal needs. Fast turnaround time. Free delivery. UPS pickup.
+        <i class="fas fa-quote-right fa-pull-right"></i>
+      </p>
+      <h3 class="my-3">Project Details</h3>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <i class="fas fa-angle-double-right"></i> Office Stationery</li>
+        <li class="list-group-item">
+          <i class="fas fa-angle-double-right"></i> Business Cards</li>
+        <li class="list-group-item">
+          <i class="fas fa-angle-double-right"></i> Letterheads</li>
+        <li class="list-group-item">
+          <i class="fas fa-angle-double-right"></i> Invoices</li>
+        <li class="list-group-item">
+          <i class="fas fa-angle-double-right"></i> Copying</li>
+        <li class="list-group-item">
+          <i class="fas fa-angle-double-right"></i> Booklets</li>
+        <li class="list-group-item">
+          <i class="fas fa-angle-double-right"></i> Flyers</li>
+        <li class="list-group-item">
+          <i class="fas fa-angle-double-right"></i> Menus</li>
+      </ul>
+    </div>
+  </div>
+  <!-- /.row -->
+</section>
+
+<div class="container">
+  <app-contact></app-contact>
+</div>
+
+
+<!-- Social Section -->
+<section class="contact bg-primary" id="contact">
+  <div class="container">
+    <h2>We
+      <i class="fa fa-heart"></i>
+      new friends!</h2>
+    <ul class="list-inline list-social">
+      <li class="list-inline-item social-twitter">
+        <a target="_blank" href="https://twitter.com/share?ref_src=http://duxwellprinting.com/home.html" class="twitter-share-button"
+          data-show-count="false">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </li>
+      <li class="list-inline-item social-facebook">
+        <div data-href="http://duxwellprinting.com/home.html" data-layout="button_count" data-size="large" data-mobile-iframe="true">
+          <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fduxwellprinting.com%2Fhome.html&amp;src=sdkpreparse"
+            class="fb-xfbml-parse-ignore">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+
+      </li>
+      <li class="list-inline-item social-print">
+        <a href="javascript:window.print()" class="share-btn">
+          <i class="fas fa-print"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>

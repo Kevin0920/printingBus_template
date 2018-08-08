@@ -1,0 +1,90 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Navbar Style */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Slide Show Carousel  */
+
+.carousel-control.left,
+.carousel-control.right {
+    cursor: pointer;
+    z-index: 1;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+/* Video Style and Cover Test */
+
+.v-header {
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    max-width: 100%;
+}
+
+.overlay {
+    height: 100vh;
+}
+
+.overlay video {
+    min-height: 100vh;
+    min-width: 100%;
+    z-index: 0;
+}
+
+.text-block {
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 5px solid #fff;
+    color: white;
+    padding: 1rem;
+    z-index: 2;
+    border-radius: 5px;
+}
+
+.backcover {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+.text-block .row {
+    overflow: hidden;
+}
+
+.text-block img {
+    width: 250px;
+    height: 250px;
+    border: 5px solid #fff;
+    border-radius: 4px;
+}
+
+/* Media */
+
+@media (min-width: 992px) {
+    .v-header .col-lg-6 {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,76 @@
+.contact-section {
+    padding: 15px;
+}
+
+.section-padding {
+    padding: 70px 0 50px;
+}
+
+.contact-section strong {
+    display: block;
+    text-transform: uppercase;
+}
+
+.contact-form strong {
+    margin-bottom: 40px;
+}
+
+.contact-form textarea.form-control {
+    height: 115px;
+}
+
+.contact-form .btn {
+    margin-top: 15px;
+}
+
+/* Input Style */
+
+.contact-form input {
+    position: relative;
+}
+
+.inputWithIcon input[type=text] {
+    padding-left: 40px;
+}
+
+.inputWithIcon {
+    position: relative;
+}
+
+.inputWithIcon i {
+    position: absolute;
+    left: 0;
+    top: 45px;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: .3s;
+}
+
+.inputWithIcon input[type=text]:focus+i {
+    color: dodgerBlue;
+}
+
+.list-unstyled li {
+    font-size: 18px;
+}
+
+.btn:disabled {
+    cursor: not-allowed;
+}
+
+/* Map Style  */
+
+.location-map {
+    padding: 4px;
+    border: 1px solid #eee;
+}
+
+.quote {
+    margin: 8px;
+    font-style: italic;
+    text-align: center;
+}
+
+agm-map {
+    height: 300px;
+}

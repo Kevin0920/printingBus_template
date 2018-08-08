@@ -1,0 +1,52 @@
+.navbar {
+    background-color: #FFF;
+}
+
+.navbar .navbar-brand {
+    color: black !important;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+.navbar .navbar-nav {
+    margin: 0 auto;
+}
+
+.navbar .nav-item a {
+    color: black !important;
+}
+
+.navbar .dropdown-menu {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar button {
+    background-color: transparent !important;
+    color: black;
+    border: 2px outset blue;
+}
+
+.navbar button a {
+    text-decoration: none;
+}
+
+.navbar button:hover {
+    background-color: blue;
+    color: greenyellow;
+}
+
+/* Navbar Style End */
+
+span {
+    color: #FFF;
+}
+
+.container {
+    overflow: hidden;
+    height: 100vh;
+}

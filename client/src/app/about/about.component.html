@@ -1,0 +1,77 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Duxwell Printing</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" [routerLink]="['/']">Home
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/about']">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/services']">Services</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">
+            <span>Action</span>
+          </a>
+          <a class="dropdown-item" href="#">
+            <span>Another action</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">
+            <span>Something else here</span>
+          </a>
+        </div>
+      </li>
+    </ul>
+    <a [routerLink]="['/templates']">
+      <button class="btn btn-outline-success my-2 my-sm-0">
+        Sample Templates
+      </button>
+    </a>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading"> About Us
+        </h2>
+        <p class="lead">
+          Duxwell Printing was founded in 1990 by Mr. William Seto. He saw the need of printing service in the local area - Financial
+          District and Chinatown.</p>
+        <h5>ABOUT MR. WILLIAM SETO (FOUNDER)</h5>
+        <p class="lead">
+          He is a community leader and an active of many associations and organizations in the local area. He has worked in the printing
+          business for over 50 years.
+        </p>
+        <h5>ABOUT MR. DAVID TSE (MANAGER)</h5>
+        <p class="lead">
+          David is the person that will take care of all your needs. He will respond to your emails and handle all calls, and walk-in
+          customers.
+        </p>
+      </div>
+      <div class="col-md-5">
+        <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image"
+          width="140" height="140">
+      </div>
+    </div>
+  </div>
+
+  <!-- /.container -->
+

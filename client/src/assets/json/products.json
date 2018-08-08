@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Image 1",
+        "image": "assets/images/products/1.jpg",
+        "description": "First Product",
+        "featured": true
+    },
+    {
+        "name": "Image 2",
+        "image": "assets/images/products/2.jpg",
+        "description": "Second Product",
+        "featured": true
+    },
+    {
+        "name": "Image 3",
+        "image": "assets/images/products/3.jpg",
+        "description": "Third Product",
+        "featured": true
+    },
+    {
+        "name": "Image 4",
+        "image": "assets/images/products/4.jpg",
+        "description": "Forth Product",
+        "featured": true   
+    }
+]
